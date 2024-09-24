@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Summaries Section */
+.summaries {
+    width: 20%;
+    padding: 10px;
+}
+
+.summaries h3 {
+    margin-bottom: 10px;
+}
+
+.summaries ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.summaries ul li {
+    margin-bottom: 8px;
+}
+
+/* Main Content Section */
+.main-content {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* Message Section */
+.message {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+.message h2 {
+    margin-bottom: 10px;
+}
+
+.message p {
+    margin-bottom: 5px;
+}
+
+/* Bike Brands Section */
+.bike-brands {
+    width: 20%;
+    padding: 10px;
+}
+
+.bike-brands h3 {
+    margin-bottom: 10px;
+}
+
+.bike-brands ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.bike-brands ul li {
+    margin-bottom: 8px;
+}
+
